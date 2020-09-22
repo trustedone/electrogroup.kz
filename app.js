@@ -25,7 +25,7 @@ app.get('/', function (req, res) {
 
 app.post('/', function (req, res) {
   const output = `
-  <p>You have a new contact request</p>
+  <p>You have a new contact request from electrogroup.kz</p>
   <h3>Contact Details</h3>
   <ul>  
     <li>Name: ${req.body.name}</li>
